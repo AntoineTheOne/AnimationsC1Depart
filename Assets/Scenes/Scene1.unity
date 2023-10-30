@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18008575, g: 0.15414271, b: 0.11429904, a: 1}
+  m_IndirectSpecularColor: {r: 0.18095842, g: 0.1550107, b: 0.114833616, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3599,7 +3599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 422449055}
   m_LocalRotation: {x: -0, y: -0.81014407, z: -0, w: -0.5862309}
-  m_LocalPosition: {x: 26.57, y: 3.96, z: -16.03}
+  m_LocalPosition: {x: 26.57, y: 1.487, z: -16.03}
   m_LocalScale: {x: 31.38, y: 31.38, z: 31.38}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3616,7 +3616,7 @@ Animator:
   m_GameObject: {fileID: 422449055}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f1be85070a44054aa623167a2d5be0c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6a055ad4dbc40ac4aaeefdb16b4f7463, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -9580,6 +9580,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1604915066}
     m_Modifications:
+    - target: {fileID: 4522693227851856764, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 15d75a935e27e9e4182ca3209a6f31cf, type: 2}
     - target: {fileID: 6322556187633127282, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9598,7 +9602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6322556187633127282, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.88
+      value: 33.837845
       objectReference: {fileID: 0}
     - target: {fileID: 6322556187633127282, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9606,7 +9610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6322556187633127282, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.723
+      value: -15.669351
       objectReference: {fileID: 0}
     - target: {fileID: 6322556187633127282, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9639,6 +9643,10 @@ PrefabInstance:
     - target: {fileID: 6322556187633357650, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_Name
       value: DoorGate_Wooden_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322556187633357650, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6322556187635551634, guid: f5e4cf5af47ee60418f92554c028a4ce, type: 3}
       propertyPath: m_LightProbeUsage
@@ -11530,6 +11538,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1604915066}
     m_Modifications:
+    - target: {fileID: 4708357761734336825, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d6b8fd35626515c4da5f7d9beaf1a4e9, type: 2}
     - target: {fileID: 7750370834962885026, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11589,6 +11601,10 @@ PrefabInstance:
     - target: {fileID: 7750370834963051906, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6, type: 3}
       propertyPath: m_Name
       value: DoorGate_Wooden_Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 7750370834963051906, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7750370834965310274, guid: b7ed1f58ec447ad4fb0c93a62eb4c4b6, type: 3}
       propertyPath: m_LightProbeUsage
@@ -20492,7 +20508,7 @@ Animator:
   m_GameObject: {fileID: 4061999137581209018}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5906888015ae7b348bdd8461aa138f03, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4890a743eecf4c842b9f5207a92605ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
