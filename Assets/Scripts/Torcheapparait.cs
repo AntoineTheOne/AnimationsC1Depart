@@ -11,14 +11,12 @@ public class Torcheapparait : MonoBehaviour
 
 
 
-void OnTriggerEnter(Collider other)
-{
-        if(other.tag == "Player"){
-            torchWall.SetActive(false);
-            torchPlayer.SetActive(true);
-
-
-        } 
+void OnTriggerEnter(Collider other){
+    if(other.tag == "Player")
+       {
+        torchPlayer.SetActive(true);
+        torchWall.SetActive(false);
+       } 
 }
 
 }
